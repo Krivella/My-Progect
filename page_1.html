@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style_1.css">
+	<title>Personal Housekeeper</title>
+</head>
+<body>
+	<header class="flex_row">
+		<div class="img"><img src="image/logo.jpg"></div>
+		<div class="push link"><a id="link" href="page_1.html">Главная</a></div>
+		<div class="link"><a id="link" href="page_2.html">Подписка</a></div>
+		<div class="link"><a id="link" href="#openModal">Регистрация</a></div>
+		<div class="link"><a id="link" href="#">О нас</a></div>
+		<div class="push_1 link"><a id="link" href="#">Частые вопросы</a></div>
+		
+		<div class="flex_row_1">
+		<div class="link">
+		<a id="link_1" class = "header_phone" href = "tel:+79818020100"> +7 981 802 01 00 </a>
+		<span class="ikon_1"><img src="image/number.svg"></span>
+	    </div> 
+        <div class="link">
+        <a id="link_1" class = "header_mail"href = "mailto:krivella6@mail.ru"> krivella6@mail.ru </a> 
+        <span class="ikon_1"><img src="image/email.svg"></span>                
+        </div> 
+        </div>
+	</header>
+<main>
+	<section class="content">
+		<div class="item_1">
+			<h2>Владейте своим домом, а не его проблемами</h2>
+			<p>От небольшого ремонта до комлексного обслуживания.
+			Берем на себя хлопоты по обслуживанию Вашей недвижимости, по подписке</p>
+			<a class="button" href="#openModal">Хочу попробовать</a>
+
+			<div id="openModal" class="modalDialog">
+				<div>
+			    <a href="#close" title="Закрыть" class="close">X</a>
+                <form action="#" method="post" enctype="multipart/form-data">
+        <div><legend><h2>Регистрация</h2></legend></div>
+ 		<div class="registration">
+ 			<label for="Email">Email</label>
+ 			<input id="Email" type="Email" name="Email" placeholder="Введите email">
+ 			<span class="ikon"><img src="image/Login.svg"></span>
+ 			
+ 		</div>
+ 		<div class="registration">
+ 			<label for="password">Придумайте пароль</label>
+ 			<input id="password" type="password" name="password" placeholder="Ваш пароль">
+ 			<span class="ikon"><img src="image/password.svg"></span>
+
+ 		</div>
+ 		<div class="registration">
+        	<label for="metrag">Ориентировочная площадь участка  м<sup>2</sup></label>
+        	<input  id="metrag" type="number" name="metrag" min="40" max="1000" step="10">
+        	<span class="ikon"><img src="image/metrag.svg"></span>
+        </div>
+ 		<div class="registration">
+ 			<label for="name">Ваше имя</label>
+ 			<input id="name" type="text" name="name" placeholder="Введите имя">
+ 			<span class="ikon"><img src="image/name.svg"></span>
+ 		</div>
+ 		<div class="registration">
+ 			<label for="phone">Номер телефона</label>
+ 			<input id="phone" type="tel" name="phone" placeholder="Введите номер">
+ 			<span class="ikon"><img src="image/number.svg"></span>
+ 		</div>
+ 		 <div class="connect">
+     	    <h4>Будет удобно связывать в мессенджере:</h4>
+     	    <label>   
+     		WhatsApp
+     		<input type="checkbox" name="WhatsApp" value="WA">
+     	    </label>
+     	    <label>
+     		Telegram
+     		<input type="checkbox" name="Telegram" value="TLG">
+     	    </label>
+     	    <label>
+     		Viber
+     		<input type="checkbox" name="Viber" value="VBR">
+     	    </label>
+        </div>
+ 		<input class="button_1" type="submit"  value="Завершить"> 
+ 	</form>
+				</div>
+			</div>
+		</div>
+		<div class="item_2"><img src="image/housekeeper.jpg"></div>
+		<div class="item_3">
+			<h3>Как это работает?</h3>
+			<p>К Вам выезжает наш эксперт, проводит полный аудит объекта, составляет план работ</p>
+		</div>
+		<div class="item_4">
+			<h3>Что дальше?</h3>
+			<p>Работы согласуются с вами, подбираем оптимальный вариант подписки. Вы оплачиваете ежемесячную подписку. Мы выполняем все плановые работы, следим за состоянием дома.</p>
+		</div>
+		<div class="item_5">
+			<h3>В итоге ...</h3>
+			<p>С Вами 24/7 на связи мастер, который закреплен за Вашими объектами и готовый решить любой вопрос в кратчайшие сроки.</p>
+		</div>
+	</section>
+    </main>
+	<footer class="footer">
+		<p>Начиная пользоваться нашим сервисом вы принимаете пользовательское соглашение и соглашаетесь с политикой конфиденциальности </p>
+		<a id="link_1" class = "header_phone" href = "tel:+79818020100"> +7 981 802 01 00 </a>
+		<p class="end">2021, HouseKeeper</p>
+	</footer>
+
+
+</body>
+</html>

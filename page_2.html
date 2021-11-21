@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style_2.css">
+	<title>Подписка</title>
+</head>
+<body>
+<header class="flex_row">
+		<div class="img"><img src="image/logo.jpg"></div>
+		<div class="push link"><a id="link" href="page_1.html">Главная</a></div>
+		<div class=" link"><a id="link" href="page_2.html">Подписка</a></div>
+		<div class="link"><a id="link" href="#openModal">Регистрация</a></div>
+		<div class="link"><a id="link" href="#">О нас</a></div>
+		<div class="push_1 link"><a id="link" href="#">Частые вопросы</a></div>
+		
+		<div class="flex_row_1">
+		<div class="link">
+		<a id="link_1" class = "header_phone" href = "tel:+79818020100"> +7 981 802 01 00 </a>
+		<span class="ikon_1"><img src="image/number.svg"></span>
+	    </div> 
+        <div class="link">
+        <a id="link_1" class = "header_mail"href = "mailto:krivella6@mail.ru"> krivella6@mail.ru </a> 
+        <span class="ikon_1"><img src="image/email.svg"></span>                
+        </div> 
+        </div>
+
+	</header>
+<main>
+	<div id="openModal" class="modalDialog">
+				<div>
+			    <a href="#close" title="Закрыть" class="close">X</a>
+                <form action="#" method="post" enctype="multipart/form-data">
+        <div><legend><h2>Регистрация</h2></legend></div>
+ 		<div class="registration">
+ 			<label for="Email">Email</label>
+ 			<input id="Email" type="Email" name="Email" placeholder="Введите email">
+ 			<span class="ikon"><img src="image/Login.svg"></span>
+ 			
+ 		</div>
+ 		<div class="registration">
+ 			<label for="password">Придумайте пароль</label>
+ 			<input id="password" type="password" name="password" placeholder="Ваш пароль">
+ 			<span class="ikon"><img src="image/password.svg"></span>
+
+ 		</div>
+ 		<div class="registration">
+        	<label for="metrag">Ориентировочная площадь участка  м<sup>2</sup></label>
+        	<input  id="metrag" type="number" name="metrag" min="40" max="1000" step="10">
+        	<span class="ikon"><img src="image/metrag.svg"></span>
+        </div>
+ 		<div class="registration">
+ 			<label for="name">Ваше имя</label>
+ 			<input id="name" type="text" name="name" placeholder="Введите имя">
+ 			<span class="ikon"><img src="image/name.svg"></span>
+ 		</div>
+ 		<div class="registration">
+ 			<label for="phone">Номер телефона</label>
+ 			<input id="phone" type="tel" name="phone" placeholder="Введите номер">
+ 			<span class="ikon"><img src="image/number.svg"></span>
+ 		</div>
+ 		 <div class="connect">
+     	    <h4>Будет удобно связывать в мессенджере:</h4>
+     	    <label>   
+     		WhatsApp
+     		<input type="checkbox" name="WhatsApp" value="WA">
+     	    </label>
+     	    <label>
+     		Telegram
+     		<input type="checkbox" name="Telegram" value="TLG">
+     	    </label>
+     	    <label>
+     		Viber
+     		<input type="checkbox" name="Viber" value="VBR">
+     	    </label>
+        </div>
+ 		<input class="button_1" type="submit"  value="Завершить"> 
+ 	</form>
+				</div>
+			</div>
+		</div>
+	<section class="content">
+		<div class="item_1">
+			<h4>Стоимость подписки</h4>
+			<p>Зависит от плановых работ и количества выездов<br> мастера в месяц. Цена формируется после аудита вашего<br> дома и участка экспертом и составления плана работ.</p>
+			<a class="asideLink" href="#dopusluga">Можно добавить доп. услуги</a>
+		</div>
+		<div class="item_2">
+			<h4>Базовый пакет</h4>
+			<ul class="usluga">
+				<li>7000 Р/Мес</li>
+				<li>Обслуживание системы отопления</li>
+				<li>Обслуживание/контроль электрики</li>
+				<li>1 выезд мастера в месяц</li>
+			</ul>
+		</div>
+
+		<div class="item_3">
+			<h4>Расширенный пакет</h4>
+			<ul class="usluga">
+				<li>13000 Р/Мес</li>
+				<li>Обслуживание системы отопления</li>
+				<li>Обслуживание/контроль электрики</li>
+				<li>Обслуживание всей техники в доме</li>
+				<li>2 выезда мастера в месяц</li>
+			</ul>
+		</div>
+
+		<div class="item_4">
+			<h4>Пакет "Всё включено"</h4>
+			<ul class="usluga"> 
+				<li>19000 Р/Мес</li>
+				<li>Обслуживание системы отопления</li>
+				<li>Обслуживание/контроль электрики</li>
+				<li>Обслуживание всей техники в доме</li>
+				<li>Обслуживание бассейна, сауны, СПА</li>
+				<li>Комплексный уход за участком</li>
+				<li>4 выезда мастера в месяц</li>
+			</ul>
+		</div>
+</section>
+		<section class="content_1">
+			<div id="dopusluga" class="item_5">
+				<h4>Дополнительные услуги</h4>
+				<p>Мы готовы взять на себя все проблемы, которые возникают при содержании дома. Ниже Вы можете ознакомиться лишь с некоторыми из работ, которые мы проводим. Полный перечень работ обсуждается с мастером индивидуально</p>
+				<ul class="usluga_dop">
+					<li>Покос газона +2000 Р/Мес</li>
+					<li>Обслуживание канализации +1500 Р/Мес</li>
+					<li>Чистка кровли +1000 Р/Мес</li>
+					<li>Чистка септика от 10000 Р</li>
+					<li>Провести/настроить интернет от 5000 Р</li>
+					<li>Аварийный выезд 24/7 от 5000 Р</li>
+				</ul>
+			</div>
+			<div class="item_6"><img src="image/gazon.jpg"></div>
+			<div class="item_7"><img src="image/sneg.jpg"></div>
+			<div class="item_8"><img src="image/septic.jpg"></div>
+			<div class="item_9"><img src="image/kanalizacia.jpg"></div>
+		</section>
+		<section class="workers">
+			<h4>Наши сотрудники</h4>
+			<div class="friends">
+				<img src="image/petr.jpg">
+				<img src="image/sanya.jpg">
+				<img src="image/egor.jpg">
+				<img src="image/jeka.jpg">
+				<img src="image/dima.jpg">
+			</div>
+		</section>
+</main>
+<footer>
+	<h4>Меры безопастности</h4>
+	<p>Мы страхуем ваши объекты в случае непредвиденных обстоятельств и наших ошибок во время работ</p>
+	<p>Страховая сумма - 5 млн. Р.</p>
+	<a id="link_2" class = "header_phone" href = "tel:+79818020100"> +7 981 802 01 00 </a>
+    <p class="end">2021, HouseKeeper</p>
+</footer>
+</body>
+</html>
