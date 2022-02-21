@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style_1.css">
+	<title>Form</title>
+</head>
+<body>
+	<h1>Система учета объектов</h1>
+
+	<form name="toDoList" class="form" novalidate>
+		<div class="input">
+		<label for="taskName">Адрес объекта и ФИО заказчика</label>
+		<input id="taskName" type="text" name="taskName" placeholder="Введите адрес и ФИО" minlength="3" maxlength="50" required>
+	    </div>
+		
+        <div class="input">
+        <label for="taskDescription" >Информация о подписке</label>
+		<input id="taskDescription"  type="text" name="taskDescription" placeholder="Описание необходимых работ"  minlength="5" maxlength="1000" required>
+	    </div>
+		
+		<div class="input">
+	    <label for="timeForTask">Дедлайн</label>
+		<input id="timeForTask" type="datetime-local" name="timeForTask" placeholder="Выполнить к ..." required>
+	    </div>
+
+	    <div class="input">
+		<label for="taskEmail">Email заказчика</label>
+		<input id="taskEmail" type="Email" name="taskEmail" placeholder="Введите Email" minlength="3" maxlength="50" required>
+	    </div>
+
+
+	    <div id="firstButton" class="input">
+			<div id="getSomePeople" class="plussing">Исполнители</div>
+
+		</div>
+
+		<div>
+			<button id="submit" class="addTask">Добавить объект</button>
+		</div>
+
+	</form>
+<div class="message_1"></div>
+<div class="link"><a id="link" class="tosecondpage" href="table.html">Перейти к перечню</a></div>
+<a href='index.html' class="exit">Выход</a>
+		
+
+<script src="script/adminka.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body{
+	background-color: rgb(224, 224, 224);
+	background-image: url(../image/house_1.jpg);;\
+
+}
+
+.add{
+position: absolute;
+right: 35%;
+}
+.remove{
+	position: relative;
+	margin-left: 370px;
+	margin-top: 12px;
+	font-size: 38px;
+	border-radius: 10px;
+}
+
+input {
+  padding:10px;
+  margin:10px 0; 
+  border-radius:10px;
+  width: 30%;
+  background: lightblue;
+  align-content: center;
+  height: 30px;
+}
+label{
+	color: white;
+	font-size: 30px;
+}
+.plussing{
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 20%;
+	color:black;
+	cursor: pointer;
+	background: lightblue;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+h1{
+	text-align: center;
+	color:black ;
+}
+
+.input{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.message{
+    text-transform: uppercase;
+	color: red;
+   
+
+}
+
+.addTask{
+	position: fixed;
+	top: 60%;
+	left: 3%;
+	cursor: pointer;
+	border-radius: 10px;
+	color: red;
+	font-size: 20px;
+}
+
+.message_1{
+    text-transform: uppercase;
+	color: red;
+	position: fixed;
+	top: 65%;
+	left: 1%;
+}
+
+
+.tosecondpage{
+	text-decoration: none;
+	position: fixed;
+	top: 80%;
+	left: 1%;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 20%;
+	color:red;
+	cursor: pointer;
+	background: lightblue;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+	.exit{
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  border: 5px solid rgb(0, 121, 107);
+  border-radius: 5px;
+  background-color: rgb(96, 125, 139);
+  color:whitesmoke;
+  cursor: pointer;
+
+
+}
+
+.exit:hover {background:#3d81e2; }
+
+

@@ -1,0 +1,84 @@
+html{
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #B2EBF2);
+  background: -webkit-linear-gradient(#fff, #B2EBF2);
+  background: -o-linear-gradient(#fff, #B2EBF2);
+}
+
+.button_delete{
+  cursor: pointer;
+  position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+width: 50%;
+height: 50px;
+margin-top: 1rem;
+padding: .1rem;
+border: 1px solid #a6aaab;
+border-radius: 7px;
+color: red;
+text-transform: uppercase;
+font-size: 20px;
+}
+.task_selected{
+  background-color:rgb(255, 205, 210) ;
+  color: #dcdcdc;
+  transition: 3s;
+}
+.conteiner{
+margin-top: 2rem;
+margin-left: 2rem;
+margin-right: 2rem;
+border-bottom:1px solid #dcdcdc;
+}
+
+.head{
+  text-align: center;
+}
+.oneTask{
+  margin: 3%;
+
+}
+
+.header{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+
+.description,
+.time,
+.members,
+.email{
+  font-size: 20px;
+  background:rgb(176, 190, 197) ;
+  border: 2px solid rgb(66, 66, 66);
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+  border-radius: 10px;
+  width: auto;%;
+  height: 50%;
+  margin-left: 0%;
+  
+}
+
+  .exit{
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  border: 5px solid rgb(0, 121, 107);
+  border-radius: 5px;
+  background-color: rgb(96, 125, 139);
+  color:whitesmoke;
+  cursor: pointer;
+
+
+}
+
+.exit:hover {background:#3d81e2; }
+
+
