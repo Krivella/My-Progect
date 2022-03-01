@@ -177,3 +177,23 @@ button.addEventListener('click', function(){
 	})
 })
 
+let quest = document.getElementsByClassName('pulse')[0];
+quest.addEventListener('click', function(){
+    let div = this.nextElementSibling;
+    div.innerHTML = 
+    `<div>
+    <h3>Задайте свой вопрос</h3>
+    <label for="quest">Что вас интересует?</label>
+    <input class="someQuest" id="quest" type="text" name="quest" placeholder="Ваш вопрос" required>
+    <span class="message"></span>
+            
+    <label for="number">Номер телефона</label>
+    <input class="someNumb" id="number" type="text" name="number" placeholder="Ваш номер"  required>
+    <span class="message"></span>
+    <button class = "delete_1">X</button>
+    <button class = "button_1">Отправить</button>`
+    let buttonClose = div.getElementsByClassName('delete_1')[0];
+    buttonClose.addEventListener("click", function(){
+         div.innerHTML ="";
+})
+})
