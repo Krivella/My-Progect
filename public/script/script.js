@@ -181,8 +181,9 @@ let quest = document.getElementsByClassName('pulse')[0];
 quest.addEventListener('click', function(){
     let div = this.nextElementSibling;
     div.innerHTML = 
-    `<div>
+    `<div class='firstmodal'>
     <h3>Задайте свой вопрос</h3>
+    <div class='secmodal'>
     <label for="quest">Что вас интересует?</label>
     <input class="someQuest" id="quest" type="text" name="quest" placeholder="Ваш вопрос" required>
     <span class="message"></span>
@@ -190,6 +191,7 @@ quest.addEventListener('click', function(){
     <label for="number">Номер телефона</label>
     <input class="someNumb" id="number" type="text" name="number" placeholder="Ваш номер"  required>
     <span class="message"></span>
+    </div>
     <button class = "delete_1">X</button>
     <button class = "button_1">Отправить</button>`
     let buttonClose = div.getElementsByClassName('delete_1')[0];
